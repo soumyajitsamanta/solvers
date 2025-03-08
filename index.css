@@ -1,0 +1,15 @@
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.cell {
+    border: 1px solid black;
+    width: 2em;
+    height: 2em;
+}
+
+.cell_empty{background-color: gray;}
+.cell_white{background-color: white;}
+.cell_black{background-color: black;}
+.cell_error{background-color: red;}
